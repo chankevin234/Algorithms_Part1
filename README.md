@@ -1,4 +1,4 @@
-# Algorithms_PartT1
+# Algorithms_Part1
 
 # Description
 This repo contains:
