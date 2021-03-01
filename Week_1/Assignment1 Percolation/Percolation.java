@@ -6,7 +6,7 @@
 import edu.princeton.cs.algs4.WeightedQuickUnionUF;
 
 public class Percolation {
-    private final boolean[][] array;
+    private boolean[][] array;
     private final WeightedQuickUnionUF wf;
     private final int num;
     private int opened = 0;
@@ -17,7 +17,6 @@ public class Percolation {
     public Percolation(int n) {
         // Throw an IllegalArgumentException in the constructor if n ≤ 0.
         if (n <= 0) throw new IllegalArgumentException(("Value of N is less than or equal to 0"));
-
         array = new boolean[n][n]; //initialize new boolean array
         //create a row by col grid based on n
         for (int row = 0; row < n; row++) {
@@ -73,7 +72,9 @@ public class Percolation {
         row = row - 1;
         col = col - 1;
         validate(row, col);
-        return (wf.find(oneD(row, col)) == wf.find(start) && array[row][col]);
+
+        //return (wf.find(oneD(row, col)) == wf.find(start) && array[row][col]);
+        return (wf.connected(oneD(row, col), start) && array[row][col]);
     }
 
     // returns the number of open sites
@@ -83,6 +84,7 @@ public class Percolation {
 
     // does the system percolate?
     public boolean percolates() {
-        return wf.find(start) == wf.find(end);
+        //return wf.find(start) == wf.find(end);
+        return wf.connected(start, end);
     }
 }

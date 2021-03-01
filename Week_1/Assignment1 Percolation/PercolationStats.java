@@ -56,6 +56,6 @@ public class PercolationStats {
         PercolationStats perc = new PercolationStats(n, t);
         StdOut.printf("mean                      = %f\n", perc.mean());
         StdOut.printf("stddev                    = %f\n", perc.stddev());
-        StdOut.printf("95% confidence interval = [%f, %f]", perc.confidenceLo(), perc.confidenceHi());
+        StdOut.printf("95%% confidence interval = [%f, %f]", perc.confidenceLo(), perc.confidenceHi());
     }
 }
