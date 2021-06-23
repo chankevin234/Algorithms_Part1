@@ -1,20 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e8e6df56-70eb-4413-986e-be4862f9bdbe" name="Default Changelist" comment="" />
+    <list default="true" id="1ec656b2-51c1-4ad3-8b32-a938971f4eb0" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
   <component name="CompilerWorkspaceConfiguration">
     <option name="CLEAR_OUTPUT_DIRECTORY" value="false" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="FindBugs-IDEA-Workspace">
     <analyzeAfterCompile>true</analyzeAfterCompile>
     <toolWindowToFront>false</toolWindowToFront>
   </component>
-  <component name="ProjectId" id="1qAYKI1spTVss906XGNdZdPofoM" />
+  <component name="ProjectId" id="1tAayKVz4zTt2ozMy01KeGVZfTU" />
   <component name="ProjectViewState">
     <option name="abbreviatePackageNames" value="true" />
     <option name="autoscrollFromSource" value="true" />
@@ -27,27 +37,25 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/queues/.lift/checkstyle-lift.jar!/" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.folding" />
-  </component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\tigge\source\repos\Algorithms_Part1\Week_2\queues" />
-    </key>
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunManager">
     <configuration name="&lt;template&gt;" type="TestNG" default="true" selected="false">
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
     </configuration>
+    <configuration name="Exercise12" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="Exercise12" />
+      <module name="Exercise12" />
+      <method v="2" />
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+      <method v="2" />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
@@ -57,27 +65,30 @@
       </method>
     </configuration>
   </component>
-  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
   <component name="WindowStateProjectService">
-    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1617113198490">
+    <state x="666" y="261" key="FileChooserDialogImpl" timestamp="1622215562802">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/261.1080.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1617113198490" />
-    <state x="689" y="310" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1622147850070">
+    <state x="666" y="261" key="FileChooserDialogImpl/285.1080.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1622215562802" />
+    <state width="1877" height="227" key="GridCell.Tab.0.bottom" timestamp="1622216901498">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="689" y="310" key="#com.intellij.ide.util.TreeClassChooserDialog/285.1080.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1622147850070" />
-    <state x="666" y="261" key="FileChooserDialogImpl" timestamp="1622146750398">
+    <state width="1877" height="227" key="GridCell.Tab.0.bottom/285.1080.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1622216901498" />
+    <state width="1877" height="227" key="GridCell.Tab.0.center" timestamp="1622216901497">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="666" y="261" key="FileChooserDialogImpl/285.1080.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1622146750398" />
-    <state x="540" y="255" key="IDE.errors.dialog" timestamp="1622145591056">
+    <state width="1877" height="227" key="GridCell.Tab.0.center/285.1080.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1622216901497" />
+    <state width="1877" height="227" key="GridCell.Tab.0.left" timestamp="1622216901497">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="540" y="255" key="IDE.errors.dialog/285.1080.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1622145591056" />
-    <state x="440" y="94" key="SettingsEditor" timestamp="1622147329095">
+    <state width="1877" height="227" key="GridCell.Tab.0.left/285.1080.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1622216901497" />
+    <state width="1877" height="227" key="GridCell.Tab.0.right" timestamp="1622216901498">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="440" y="94" key="SettingsEditor/285.1080.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1622147329095" />
+    <state width="1877" height="227" key="GridCell.Tab.0.right/285.1080.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1622216901498" />
+    <state x="440" y="94" key="SettingsEditor" timestamp="1622215570388">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="440" y="94" key="SettingsEditor/285.1080.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1622215570388" />
   </component>
 </project>
